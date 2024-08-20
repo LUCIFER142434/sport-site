@@ -22,5 +22,11 @@ def start(element):
         {"img":"static/images/graph-02.svg","name":"Learn Surfing From Experts","text":"Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.",},
         {"img":"static/images/graph-01.svg","name":"Archers Club","text":"Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.",},
     ]
-    copy_fun = {"copy_plan":copy_plan,"copy_li":copy_li,"copy_about":copy_about}
+    copy_what = [
+        {"text":"Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.","img":"logo-1.png"},
+        {"text":"Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.","img":"logo-2.png"},
+        {"text":"In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula.","img":"logo-3.png"},
+        {"text":"Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.","img":"logo-4.png"},
+    ]
+    copy_fun = {"copy_plan":copy_plan,"copy_li":copy_li,"copy_about":copy_about,"copy_what":copy_what}
     return render(element,"index.html",copy_fun)
